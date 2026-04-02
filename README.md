@@ -29,17 +29,17 @@ pip install -r requirements.txt
 
 ### 4. Set your Groq API key
 ```bash
-# Windows
-set GROQ_API_KEY=gsk_your-key-here
+create a new .env file
 
-# macOS/Linux
-export GROQ_API_KEY="gsk_your-key-here"
+# In .env flie
+GROQ_API_KEY="your-api-key-here"
+
 ```
 > Get your free API key at [https://console.groq.com](https://console.groq.com)
 
 ### 5. Run the app
 ```bash
-python main.py
+streamlit run main.py
 ```
 
 ---
@@ -67,9 +67,12 @@ Enter color (e.g. golden, black, spotted): white
 
 ```
 Pets-Name-Generator/
-├── main.py            # Main application
-├── requirements.txt   # Python dependencies
-└── README.md          # Project documentation
+├── .env                    # .env file
+├── .gitignore              # .gitignore file
+├── langchain_helper.py     #  langchain code
+├── main.py                 # Main application
+├── README.md               # Project documentation
+└── requirements.txt        # Python dependencies
 ```
 
 ---
@@ -106,6 +109,7 @@ langchain
 langchain-groq
 langchain-core
 groq
+python-dotenv
 streamlit
 ```
 
