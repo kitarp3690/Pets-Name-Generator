@@ -1,1 +1,3 @@
 vrtenv
+.env
+__pycache__/
