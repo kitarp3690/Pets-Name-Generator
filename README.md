@@ -106,9 +106,6 @@ langchain
 langchain-groq
 langchain-core
 groq
+streamlit
 ```
 
----
-
-## 📄 License
-MIT
